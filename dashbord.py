@@ -75,7 +75,7 @@ class RMS:
 
      
     #======footer======
-        footer=Label(self.root,text="SRMS-Student Result Managment System\nContact Us for any Technical Issue: 987xxxx01",font=("goudy old style",12),bg="#262626",fg="white").pack(side=BOTTOM,fill=X)
+        footer=Label(self.root,text="CRMS-College Result Management System \nContact Us for any Technical Issue: 987xxxx01",font=("goudy old style",12),bg="#262626",fg="white").pack(side=BOTTOM,fill=X)
         self.update_details()
   #=======================================================================  
     def update_details(self):
@@ -185,4 +185,5 @@ class RMS:
 if __name__ == "__main__":
     root = Tk()
     obj = RMS(root)
+
     root.mainloop()
